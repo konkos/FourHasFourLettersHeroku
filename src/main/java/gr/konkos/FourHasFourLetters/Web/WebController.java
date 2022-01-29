@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/numbertoword")
+@CrossOrigin
 public class WebController {
 
     private final WebService webService;
